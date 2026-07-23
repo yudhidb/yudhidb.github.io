@@ -1,0 +1,12 @@
+---
+layout: post
+title: "My First Blog Post"
+date: 2026-07-23
+categories: welcome
+---
+
+Hello World! This is my first Jekyll blog post.
+
+## This is a heading
+
+Here's some content...
