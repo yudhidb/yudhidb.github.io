@@ -1,7 +1,8 @@
 theme: minima
-title: mindwritink - yudhidb's personal blog
-description: This is where I share cool stuff about my life
-author: yudhidb
+title: mindwritink
+description: live and write
+author: Yudhi D. Baihaqi
+email: yudhi@mindwrit.ink
 
 # Site-wide settings
 # ------------------
@@ -59,7 +60,7 @@ author: yudhidb
 #     * solarized-light    Light variant of solarized color scheme.
 #     * solarized-dark     Dark variant of solarized color scheme.
 #     * solarized          Adaptive skin for solarized color scheme skins.
-#   skin: auto
+   skin: auto
 #
 #   Specific pages for site navigation.
 #     If you wish to link only specific pages in the site-navigation, use this
@@ -69,7 +70,7 @@ author: yudhidb
 #     - about.md
 #
 #   Set to `true` to show excerpts on the homepage.
-#   show_excerpts: false
+   show_excerpts: true
 #
 #   Minima date format.
 #     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
@@ -83,12 +84,21 @@ author: yudhidb
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
 #   social_links:
-#     - title: Minima Theme repository at GitHub
+#     - title: GitHub
 #       icon: github
-#       url: "https://github.com/jekyll/minima"
-#     - title: Jekyll at X (formerly Twitter)
+#       url: "https://github.com/yudhidb"
+#     - title: mindwritink at X (formerly Twitter)
 #       icon: x-twitter
 #       url: "https://x.com/jekyllrb"
+   social_links:
+     - title: Instagram
+       icon: instagram
+       url: "https://www.instagram.com/mindwritink/"
+#     - title: mindwritink at X (formerly Twitter)
+#       icon: x-twitter
+#       url: "https://x.com/jekyllrb"
+
+
 #
 #   Hide syndication feed subscription link.
 #     RSS / Atom feed link is always rendered as the last item of social-links
