@@ -1,6 +1,6 @@
 <div class="nav-items">
 <!-- <div class="trigger"> -->
-  <a class="page-link" href="/">Home</a>
+  <a class="nav-item" href="/">Home</a>
   {%- for path in include.paths -%}
   {%- assign hyperpage = site.pages | where: "path", path | first -%}
   {%- if hyperpage.title %}
