@@ -61,18 +61,18 @@ minima:
 #     If you wish to link only specific pages in the site-navigation, use this
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
-nav_pages:
-- index.md
-- tags.md
-- about.md
+  nav_pages:
+    - index.md
+    - tags.md
+    - about.md
 #
 #   Set to `true` to show excerpts on the homepage.
-show_excerpts: true
+  show_excerpts: true
 #
 #   Minima date format.
 #     The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
 #     Refer to https://shopify.github.io/liquid/filters/date/ for valid values
-date_format: "%d %b %Y"
+  date_format: "%d %b %Y"
 #
 #   Social Media Links.
 #     Renders icons via Font Awesome Free webfonts CDN, based on ordered list of
@@ -80,13 +80,13 @@ date_format: "%d %b %Y"
 #       * title    Tooltip rendered on hovering over icon.
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
-social_links:
-- title: GitHub
-  icon: github
-  url: "https://github.com/yudhidb"
-- title: mindwritink at X (formerly Twitter)
-  icon: x-twitter
-  url: "https://x.com/mindwritink"
+  social_links:
+    - title: GitHub
+      icon: github
+      url: "https://github.com/yudhidb"
+    - title: mindwritink at X (formerly Twitter)
+      icon: x-twitter
+      url: "https://x.com/mindwritink"
 
 #     - title: Instagram
 #       icon: instagram
