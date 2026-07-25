@@ -32,6 +32,8 @@ $lm-border-color-01:       $lm-brand-color-light !default;
 $lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
 $lm-border-color-03:       $lm-brand-color-dark !default;
 
+$lm-border-color-04:       $lm-border-top;
+
 $lm-table-text-color:      lighten($lm-heading-color, 18%) !default;
 $lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
 $lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
@@ -143,6 +145,8 @@ $dm-link-hover-color:      $dm-text-color !default;
 $dm-border-color-01:       $dm-brand-color-dark !default;
 $dm-border-color-02:       $dm-brand-color-light !default;
 $dm-border-color-03:       $dm-brand-color !default;
+
+$dm-border-color-04:       $dm-border-top;
 
 $dm-table-text-color:      $dm-text-color !default;
 $dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
@@ -261,7 +265,8 @@ $link-hover-color: $lm-link-hover-color;
 $border-color-01: $lm-border-color-01;
 $border-color-02: $lm-border-color-02;
 $border-color-03: $lm-border-color-03;
-$border-color-04: $lm-border-top;
+
+$border-color-04: $lm-border-color-04;
 
 $table-text-color: $lm-table-text-color;
 $table-zebra-color: $lm-table-zebra-color;
@@ -295,6 +300,8 @@ $table-border-color: $lm-table-border-color;
     --minima-border-color-02: #{$lm-border-color-02};
     --minima-border-color-03: #{$lm-border-color-03};
 
+    --minima-border-color-04: #{$lm-border-color-04};
+
     --minima-table-text-color: #{$lm-table-text-color};
     --minima-table-zebra-color: #{$lm-table-zebra-color};
     --minima-table-header-bg-color: #{$lm-table-header-bg-color};
@@ -326,6 +333,8 @@ $table-border-color: $lm-table-border-color;
       --minima-border-color-02: #{$dm-border-color-02};
       --minima-border-color-03: #{$dm-border-color-03};
 
+      --minima-border-color-04: #{$dm-border-color-04};
+
       --minima-table-text-color: #{$dm-table-text-color};
       --minima-table-zebra-color: #{$dm-table-zebra-color};
       --minima-table-header-bg-color: #{$dm-table-header-bg-color};
@@ -355,6 +364,8 @@ $table-border-color: $lm-table-border-color;
   $border-color-01: var(--minima-border-color-01);
   $border-color-02: var(--minima-border-color-02);
   $border-color-03: var(--minima-border-color-03);
+
+  $border-color-04: var(--minima-border-color-04);
 
   $table-text-color: var(--minima-table-text-color);
   $table-zebra-color: var(--minima-table-zebra-color);
@@ -386,7 +397,8 @@ $table-border-color: $lm-table-border-color;
   $border-color-01: $dm-border-color-01;
   $border-color-02: $dm-border-color-02;
   $border-color-03: $dm-border-color-03;
-  $border-color-04: $dm-border-top;
+  
+  $border-color-04: $dm-border-color-04;
 
   $table-text-color: $dm-table-text-color;
   $table-zebra-color: $dm-table-zebra-color;
