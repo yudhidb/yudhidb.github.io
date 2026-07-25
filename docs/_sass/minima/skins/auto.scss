@@ -10,6 +10,8 @@ $color-scheme-dark: false !default;
 // Light mode
 // ----------
 
+$lm-border-top:            #fdfdfd !default;
+
 $lm-brand-color:           #818181 !default;
 $lm-brand-color-light:     lighten($lm-brand-color, 40%) !default;
 $lm-brand-color-dimmed:    darken($lm-brand-color, 11%) !default;
@@ -119,6 +121,8 @@ $lm-table-border-color:    $lm-border-color-01 !default;
 
 // Dark mode
 // ---------
+
+$dm-border-top:            #181818 !default;
 
 $dm-brand-color:           #999999 !default;
 $dm-brand-color-light:     lighten($dm-brand-color, 5%) !default;
@@ -257,6 +261,7 @@ $link-hover-color: $lm-link-hover-color;
 $border-color-01: $lm-border-color-01;
 $border-color-02: $lm-border-color-02;
 $border-color-03: $lm-border-color-03;
+$border-color-04: $lm-border-top;
 
 $table-text-color: $lm-table-text-color;
 $table-zebra-color: $lm-table-zebra-color;
@@ -381,6 +386,7 @@ $table-border-color: $lm-table-border-color;
   $border-color-01: $dm-border-color-01;
   $border-color-02: $dm-border-color-02;
   $border-color-03: $dm-border-color-03;
+  $border-color-04: $dm-border-top;
 
   $table-text-color: $dm-table-text-color;
   $table-zebra-color: $dm-table-zebra-color;
