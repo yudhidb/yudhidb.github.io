@@ -1,20 +1,16 @@
-title: mindwritink
-description: live and write
-author: Yudhi D. Baihaqi
-email: yudhi@mindwrit.ink
-
 # Site-wide settings
 # ------------------
 #
-# title: Your awesome title
+title: mindwritink
 #
-# author:
-#   name: GitHub User
-#   email: your-email@domain.com
+author:
+  name: Yudhi D. Baihaqi
+  email: yudhi@mindwrit.ink
 #
 # The `>` after `description:` means to ignore line-breaks until next key. If
 #   you wish to omit the line-break after the end of text, use `>-` instead.
 # description: >
+description: live and write
 #   Write an awesome description for your new site here. You can edit this line
 #   in _config.yml. It will appear in your document head meta (for Google search
 #   results) and in your feed.xml site description.
@@ -66,8 +62,9 @@ minima:
 #     and list the `path` property (as represented via Liquid) of the pages in
 #     the order they should be rendered.
 nav_pages:
-- about.md
+- index.md
 - tags.md
+- about.md
 #
 #   Set to `true` to show excerpts on the homepage.
 show_excerpts: true
@@ -83,17 +80,14 @@ show_excerpts: true
 #       * title    Tooltip rendered on hovering over icon.
 #       * icon     Font Awesome icon id. `github` corresponds to `fa-github`.
 #       * url      Full URL of social profile.
-#   social_links:
-#     - title: GitHub
-#       icon: github
-#       url: "https://github.com/yudhidb"
-#     - title: mindwritink at X (formerly Twitter)
-#       icon: x-twitter
-#       url: "https://x.com/jekyllrb"
 social_links:
-  - title: mindwritink at X
-    icon: x-twitter
-    url: "https://x.com/mindwritink"
+- title: GitHub
+  icon: github
+  url: "https://github.com/yudhidb"
+- title: mindwritink at X (formerly Twitter)
+  icon: x-twitter
+  url: "https://x.com/mindwritink"
+
 #     - title: Instagram
 #       icon: instagram
 #       url: "https://www.instagram.com/mindwritink/"
@@ -105,4 +99,4 @@ social_links:
 #     RSS / Atom feed link is always rendered as the last item of social-links
 #     list. Set below key to `true` to not have the link to feed rendered as
 #     part of social-links list.
-#   hide_site_feed_link: false
+hide_site_feed_link: true
