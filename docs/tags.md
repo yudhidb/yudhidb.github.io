@@ -29,7 +29,7 @@ permalink: /tags/
       <ul>
         {% for post in tag_posts %}
           <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> — 
+            <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span> — 
             <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </li>
         {% endfor %}
