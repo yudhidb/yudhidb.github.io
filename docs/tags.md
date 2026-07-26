@@ -35,7 +35,6 @@ permalink: /tags/
         {% endfor %}
       </ul>
     </div>
-
   {% endfor %}
 </div>
 
