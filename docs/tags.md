@@ -21,11 +21,11 @@ permalink: /tags/
   {% for tag in tags %}
     {% assign tag_name = tag[0] %}
     {% assign tag_posts = tag[1] %}
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {% assign pdate = page.date | date_to_xmlschema %}
     
     <div id="{{ tag_name | slugify }}" class="tag-group" style="padding-top: 20px; margin-bottom: 20px;">
       <h2>#{{ tag_name }}</h2>
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {% assign pdate = page.date | date_to_xmlschema %}
       <ul>
         {% for post in tag_posts %}
           <li>
