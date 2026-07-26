@@ -16,8 +16,6 @@ permalink: /tags/
   {% endfor %}
 </div>
 
-<hr>
-
 <!-- Target Anchors and List of Posts -->
 <div class="tag-sections">
   {% for tag in tags %}
