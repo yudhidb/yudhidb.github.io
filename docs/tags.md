@@ -4,6 +4,12 @@ title: Tags
 permalink: /tags/
 ---
 
+---
+layout: page
+title: Posts by Tag
+permalink: /tags.html
+---
+
 <!-- Tag Cloud / Index Navigation -->
 <div class="tag-cloud" style="margin-bottom: 30px;">
   {% assign tags = site.tags | sort %}
@@ -16,20 +22,20 @@ permalink: /tags/
   {% endfor %}
 </div>
 
+<hr>
+
 <!-- Target Anchors and List of Posts -->
 <div class="tag-sections">
   {% for tag in tags %}
     {% assign tag_name = tag[0] %}
     {% assign tag_posts = tag[1] %}
-    {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-    {% assign pdate = page.date | date_to_xmlschema %}
     
     <div id="{{ tag_name | slugify }}" class="tag-group" style="padding-top: 20px; margin-bottom: 20px;">
       <h2>#{{ tag_name }}</h2>
       <ul>
         {% for post in tag_posts %}
           <li>
-            <span class="post-meta">{{ pdate | date: date_format }}</span> — 
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span> — 
             <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </li>
         {% endfor %}
@@ -37,5 +43,3 @@ permalink: /tags/
     </div>
   {% endfor %}
 </div>
-
-
