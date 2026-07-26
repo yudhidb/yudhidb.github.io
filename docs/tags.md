@@ -4,12 +4,6 @@ title: Tags
 permalink: /tags/
 ---
 
----
-layout: page
-title: Posts by Tag
-permalink: /tags.html
----
-
 <!-- Tag Cloud / Index Navigation -->
 <div class="tag-cloud" style="margin-bottom: 30px;">
   {% assign tags = site.tags | sort %}
